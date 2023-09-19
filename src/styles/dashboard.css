@@ -1,0 +1,71 @@
+html{
+    height: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.628)) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.n-bar{
+    margin-top: none;
+    height: 2.5vw;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    width:5vw;
+    text-align: center;
+
+}
+a:hover{
+    background-color: #03002935;
+    transition: all .3s ease-in-out;
+}
+
+.links{
+    margin-top: 0.3vw;
+}
+.links:hover{
+    transition: all .3s ease-in-out;
+    color: rgb(172, 0, 117);
+}
+
+.out{
+   background: rgba(255, 0, 0, 0.485);
+}
+.out:hover{
+    background:  rgba(152, 0, 0, 0.485);
+}
+
+.logo{
+    width: 10vh;
+}
+
+.homeclass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.txth1{
+    margin-bottom: 10%;
+
+
+}
+.user-list{
+    display: flex;
+    border: 2px solid #03002935;
+}
+.user-list p{
+    margin: 4vw;
+}
