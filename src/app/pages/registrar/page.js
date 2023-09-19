@@ -27,7 +27,7 @@ export default async function Registrar() {
           <input id="senha" type="text" placeholder="senha"/>
           </div><br/>
 
-          <button className="botao">Entrar</button>
+          <button className="botao">ENTRAR</button>
         </form>
         <ToastContainer />
       </div>

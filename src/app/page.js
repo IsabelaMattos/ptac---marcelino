@@ -46,7 +46,7 @@ export default function Login() {
 
         </div>  
 
-        <button className="button">Entrar</button>
+        <button className="button">ENTRAR</button>
         </form>
         <ToastContainer />
         </div>
