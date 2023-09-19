@@ -32,19 +32,19 @@ export default function Login() {
       <center><h1>Login</h1></center>
       <form onSubmit={handlerLogin}>
         <div className="register">
-          <center><label for="">Email</label>
+          <center><label for="">Email:</label>
           <input type="email" placeholder="isabela@gmail.com"
           onChange={(e) => { setUser({...user, email: e.target.value }) }}
         /></center>
 
-        </div>
+        </div><br/>
         <div className="register">
-          <center><label for="">Senha</label></center>
-          <center><input type="password" placeholder="senha"
+          <center><label for="">Senha:</label>
+          <input type="password" placeholder="senha"
           onChange={(e) => { setUser({...user, password: e.target.value }) }}
         /></center>
 
-        </div>  
+        </div> <br/> 
 
         <center><button className="button">ENTRAR</button></center>
         </form>

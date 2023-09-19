@@ -6,7 +6,7 @@ import Navbar from "../../componentes/Navbar";
 export default async function Registrar() {
   const registrar = (e) => {
     e.preventDefault();
-    toast.sucess('Registrado com sucesso')
+    toast.success('Registrado com sucesso')
   }
   return (
     <div className="register">
