@@ -1,7 +1,65 @@
 body {
-      background-color: rgb(175, 183, 214);
-    }
+      background-color: #9f9ad0;
+}
+
 form{
       text-align: center;
 }
+
+input{
+    text-align: center;
+    text-decoration: none;
+    width:15vw;
+    background-color: rgba(255, 255, 255);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255);
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.botao{
+    cursor: pointer;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 10px;
+    border: none;
+    color: '#black';
+    background-size: 300% 100%;
+    transition: all .4s ease-in-out;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8a2be2;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #8a2be2 (blue violet) on hover */
+  li a:hover {
+    background-color: rgb(175, 183, 214);
+  }
+
+
     

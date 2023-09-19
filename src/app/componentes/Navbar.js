@@ -13,15 +13,12 @@ export default function Navbar() {
     }
 
     return(
-    <div className="logo" id="logo">
+    <ul>
 
-    <a href="/">   <div className="links">Logo</div>     </a>
-
-    <a href="/pages/registrar"><div className="links">Registrar</div></a>
-
-    <a href="/pages/alterar"><div className="links">Alterar</div></a>
-
-    <a href="#" className="open"><div className="links"><button className="open" onClick={handlerRemoveCookies}>Sair</button></div></a>
-</div>
+      <li className="links"> <a href="/">Logo</a></li>     
+      <li className="links"> <a href="/pages/registrar">Registrar</a></li>
+      <li className="links"><a href="/pages/alterar">Alterar</a></li>
+      <li className="links"><button className="open" onClick={handlerRemoveCookies}><a href="#" className="open">Sair</a></button></li>
+   </ul>
     )
 }
