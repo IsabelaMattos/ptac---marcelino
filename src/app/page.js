@@ -29,7 +29,7 @@ export default function Login() {
   return (
     <div className="login">
       <div className="login do usuario">
-      <center><h1>Login</h1></center>
+      <center><h1><i>Login</i></h1></center>
       <form onSubmit={handlerLogin}>
         <div className="register">
           <center><label for="">Email:</label>
