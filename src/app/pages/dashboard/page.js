@@ -11,7 +11,7 @@ export default async function Dashboard() {
              <Navbar/>
          </div>
              <div className="classlist">
-                <h1 className="dash1"><i>Usuários</i></h1>
+                <center><h1 className="dash1"><i>Usuários</i></h1></center>
                 <div className="listuser">
                    {users?.map((user, index) =>
                       <p key={index}>
