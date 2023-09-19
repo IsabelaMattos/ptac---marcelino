@@ -4,10 +4,15 @@ import 'react-toastify/dist/ReactToastify.css';
 import Navbar from "../../componentes/Navbar";
 
 export default function Alterar() {
+  const alterar = (e) => {
+    e.preventDefault();
+    toast.sucess('Alterado com sucesso')
+  }
   return (
-    <div>
+    <div className="register">
       <Navbar/>
-      <h1><i>Altera algum campo</i></h1>
+      <div className="se registre">
+      <h1><i>Alterar-se</i></h1>
       <form onSubmit={alterar}>
           <div className="name">
           <label for="">Nome:</label>
@@ -25,6 +30,7 @@ export default function Alterar() {
           <button className="botao">ENTRAR</button>
         </form>
       <ToastContainer />
+      </div>
     </div>
   );
 };
