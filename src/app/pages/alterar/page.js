@@ -3,12 +3,12 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Navbar from "../../componentes/Navbar";
 
-export default async function Alterar() {
+export default function Alterar() {
   return (
     <div>
       <Navbar/>
-      
-      <ToastContainer toastStyle={{backgroundColor: "#black"}} />
+      <h1><i>Altera algum campo</i></h1>
+      <ToastContainer />
     </div>
   );
 };

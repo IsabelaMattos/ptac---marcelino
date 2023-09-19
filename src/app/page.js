@@ -48,7 +48,7 @@ export default function Login() {
 
         <button className="button">Entrar</button>
         </form>
-        <ToastContainer toastStyle={{backgroundColor:"#black"}} />
+        <ToastContainer />
         </div>
         </div>
   )

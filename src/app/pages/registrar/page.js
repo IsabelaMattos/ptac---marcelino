@@ -12,24 +12,24 @@ export default async function Registrar() {
     <div className="register">
       <Navbar/>
       <div className="se registre">
-        <h1>Registra-se</h1>
+        <h1><i>Registra-se</i></h1>
         <form onSubmit={registrar}>
           <div className="name">
-          <label for="">Nome</label>
+          <label for="">Nome:</label>
           <input id="nome" type="text" placeholder="Nome"/>
-          </div>
+          </div><br/>
           <div className="email">
-          <label for="">Email</label>
+          <label for="">Email:</label>
           <input id="email" type="email" placeholder="email@gmail.com"/>
-          </div>
+          </div><br/>
           <div className="password">
-          <label for="">Senha</label>
+          <label for="">Senha:</label>
           <input id="senha" type="text" placeholder="senha"/>
-          </div>
+          </div><br/>
 
           <button className="botao">Entrar</button>
         </form>
-        <ToastContainer toastStyle={{backgroundColor:"#black"}} />
+        <ToastContainer />
       </div>
     </div>
   );
