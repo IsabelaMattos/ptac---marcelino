@@ -1,10 +1,8 @@
 'use client'
 
 import { useRouter } from "next/navigation";
-import "../../styles/login.css";
-import Cookies from "js-cookie";
-import '../../styles/dashboard.css';
 
+import Cookies from "js-cookie";
 export default function Navbar() {
     const { push, refresh } = useRouter();
     const handlerRemoveCookies = async (e) => {
