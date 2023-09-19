@@ -6,7 +6,7 @@ import Navbar from "../../componentes/Navbar";
 export default function Alterar() {
   const alterar = (e) => {
     e.preventDefault();
-    toast.sucess('Alterado com sucesso')
+    toast.success('Alterado com sucesso')
   }
   return (
     <div className="register">
